@@ -1,0 +1,44 @@
+#Struktur Perintah Linux
+
+Perintah linux dijalankan melalui shell dengan susunan umum:
+
+	perintah [opsi] [argumen]
+
+#Komponen utama
+
+ - **Perintah**
+	Nama program yang dijalankan
+	contoh : ls, ping, df
+
+ - **Opsi**
+	Mengubah perilaku perintah
+	- opsi pendek : -l, -a
+	- opsi panjang : --all
+
+ - **Argumen**
+	Target perintah, seperti file, direktory, atau alamat IP
+
+
+#Contoh
+	ping -c 1 8.8.8.
+
+	- ping -> perintah
+	- -c   -> opsi
+	- 1    -> nilai
+	- 8.8.8.8 -> argumen
+
+
+	ls -la /etc
+	
+	- ls   -> perintah
+	- -l -a -> opsi(digabung, la)
+	- /etc -> argumen
+
+#Catatan Penting
+ - opsi diawali tanda minus (-)
+ - Perintah, opsi, argumen di pisah dengan spasi
+ - Linux peka terhadap huruf besar dan kecil
+ - Tidak semua perintah membutuhkan opsi dan argumen.
+
+
+	**heri-lab-system 12:04 29-01-2026**
