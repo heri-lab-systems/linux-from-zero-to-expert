@@ -1,0 +1,28 @@
+#Pengenalan Terminal dan Console Linux
+
+Linux adalah sistem operasi yang sangat berorientasi pada **perintah (command line)**.
+meskipun tersedia antarmuka grafis (GUI), pengelolaan sistem linux yang efektif hampir selalu dilakukan melalui terminal.
+
+#Istilah penting
+ **Terminal**
+   Aplikasi Grafis (emulator terminal) yang digunakan untuk mengakses system linux melalui shell. Contoh : gnone terminal, konsole, exterm, terminator.
+
+ **Shell**
+   Program penerjemah perintah yang menerima input dari pengguna, memeriksa sintax, lalu mengirimkannya ke kernel untuk di eksekusi.
+shell default pada banyak distribusi Linux adalah Bash.
+
+ **Console**
+   Lingkungan terminal berbasis teks tanpa antarmuka grafis (GUI).
+biasanya digunakan saat sistem tidak menjalankan dekstop environment.
+
+#Cara membuka Terminal di Ubuntu
+ - Pintasan Keyboard : CTRL + ALT + T
+ - Klik kanan di dekstop : **Open in Terminal**
+ - Cari aplikasi **Terminal** di menu aplikasi
+
+#Catatan Penting
+ - Linux **peka terhadap huruf besar atau kecil** (case sensitive)
+ - Perintah umumnya di tulis dalam **huruf kecil**
+ - Terminal dan Console sering disebut bergantian, meskipun secara teknis berbeda
+
+Pemahaman terminal, shell, console merupakan **fondasi utama** untuk bekerja efektif di Linux.
